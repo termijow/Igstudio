@@ -1,0 +1,177 @@
+:root {
+    --color-1: #111111;
+    --color-2: #FFFFFF;
+    --font: 'Inter', sans-serif;
+    --color-3: #E3B748;
+    --color-4: #1D1D1D;
+    --card-color: #2E2E2E;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--color-4);
+}
+
+.main__container {
+    min-width: 320px;
+    width: 100%;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+ul img {
+    margin-top: 8px;
+    width: 143px;
+    height: 30px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    justify-content: space-around;
+    color: var(--color-2);
+    font-family: var(--font);
+    font-size: 16px;
+}
+
+ul li:nth-child(2) {
+    margin-left: 200px;
+}
+
+
+ul li:nth-child(5) {
+    margin-right: 200px;
+}
+
+ul li {
+    margin-top: 12px;
+}
+
+ul li:nth-child(1) {
+    margin-left: 120px;
+}
+
+ul p {
+    border: 1px var(--color-2) solid;
+    padding: 12px 24px;
+    margin-right: 4vw;
+}
+
+.container--text h1 {
+    margin-top: 80px;
+    font-weight: 500;
+    font-size: 6.6rem;
+    text-align: center;
+}
+
+.container--text {
+    grid-column: 1 /2;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    font-family: var(--font);
+    color: var(--color-2);
+
+}
+
+.container--text h2 {
+    font-weight: 700;
+    font-size: 6.6rem;
+    text-align: center;
+}
+
+div aside {
+    display: flex;
+}
+
+.introducing__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 30px;
+    padding-top: 128px;
+    background-color: var(--color-1);
+    height: 840px;
+}
+
+aside img {
+    width: 467px;
+    height: 544px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.input__container {
+    margin-top: 238px;
+    width: 578px;
+    height: 74px;
+}
+
+.container--text--description {
+    color: var(--color-2);
+    font-family: var(--font);
+    opacity: 30%;
+    width: 438px;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
+.container--text--input {
+    display: flex;
+    color: var(--color-3);
+    opacity: 100%;
+    font-family: var(--font);
+    background-color: #292929;
+    background-image: url(../assets/email.png);
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 28px 26px;
+    height: 74px;
+    width: 438px;
+    padding-left: 64px;
+    border-radius: 43px;
+    border: 0;
+}
+
+.submit--button {
+    font-family: var(--font);
+    position: relative;
+    left: 297px;
+    bottom: 68px;
+    background-color: var(--color-3);
+    width: 137px;
+    height: 62px;
+    border-radius: 43px;
+    border: 0;
+}
+
+h3, h4 {
+    color: var(--color-2);
+    font-family: var(--font);
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 5.4rem;
+}
+
+h4 {
+    font-size: 3.2rem;
+}

@@ -5,6 +5,7 @@
     --color-3: #E3B748;
     --color-4: #1D1D1D;
     --card-color: #2E2E2E;
+    --card-color-2:	rgba(50,50,50,1.000);
 }
 
 * {
@@ -121,12 +122,14 @@ aside img {
 }
 
 .input__container {
-    background-color: cadetblue;
+    margin-left: 128px;
+    margin-top: 48px;
     width: 578px;
     height: 74px;
 }
 
 .container--text--description {
+    margin-top: 36px;
     color: var(--color-2);
     font-family: var(--font);
     opacity: 30%;
@@ -136,6 +139,7 @@ aside img {
 }
 
 .container--text--input {
+    display: flex;
     color: var(--color-3);
     opacity: 100%;
     font-family: var(--font);
@@ -154,7 +158,8 @@ aside img {
 .submit--button {
     font-family: var(--font);
     position: relative;
-    right: 142px;
+    left: 297px;
+    bottom: 68px;
     background-color: var(--color-3);
     width: 137px;
     height: 62px;
@@ -511,6 +516,7 @@ h4 {
     height: 400px;
     margin: 0 auto;
     margin-top: 200px;
+    margin-bottom: 200px;
 }
 
 .faq__container--left {
@@ -548,12 +554,86 @@ h6 {
 }
 
 .faq__questions p {
+    margin-top: 42px;
     opacity: 30%;
     font-weight: 500;
     font-size: 1.8rem;
     font-family: var(--font);
     color: var(--color-2)
 }
+
+.question__container h6 {
+    margin: 15px 0;
+}
+
+.question__container {
+    border-top: 3px solid var(--card-color);
+    display: flex;
+    margin-top: 24px;
+    justify-content: space-between;
+}
+
+.question__container_1 {
+    margin-top: 40px;
+}
+
+.question__container img {
+    width: 28px;
+    height: 28px;
+    margin: 15px 0;
+}
+
+.newsletter__container {
+    width: 1140px;
+    margin: 0px auto 242px auto;
+    background-color: var(--card-color-2);
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter__container h3 {
+    margin: 0 auto;
+    font-family: var(--font);
+    margin-top: 64px;
+}
+
+.newsletter__form__container {
+    margin: 48px auto;
+}
+
+.newsletter__name {
+    width: 276px;
+    height: 53px;
+    background-color: #E4E4E4;
+    border: 0;
+    border-radius: 8px 0px 0px 8px;
+    padding-left: 36px;
+    margin-right: 8px;
+}
+
+.newsletter__email {
+    width: 276px;
+    height: 53px;
+    background-color: #E4E4E4;
+    border: 0;
+    padding-left: 36px;
+}
+
+.newsletter__submit {
+    background-color: var(--color-3);
+    width: 116px;
+    height: 53px;
+    border: 0;
+    margin-left: 8px;
+    border-radius: 0px 8px 8px 0px;
+    font-family: var(--font);
+    font-weight: 700;
+}
+
+
+
+
+
 
 
 
